@@ -1,0 +1,32 @@
+footer .khung{
+    background-color: gainsboro;
+    min-height: 300px;
+}
+footer .khung>div{
+    float: left;
+}
+.cot-1, .cot-2, .cot-3, .cot-4{
+    width: 25%;
+    float:left;
+}
+.khung{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.link-tieu-de{
+    color:orangered;
+}
+nav{
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
